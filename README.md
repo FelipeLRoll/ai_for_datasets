@@ -8,6 +8,7 @@
 
 # How to use
 * Ensure that the required libraries are listed in a requirements.txt file. Install these libraries by running ```pip install -r requirements.txt```
+* Download the .csv file you want to use, put it in the same folder as the project and change in *agent.py* the line ```df = pd.read_csv("wec_data.csv")``` to the name of your file
 * Create a .env file inside the project and write ```GOOGLE_API_KEY = "PUT YOUR GEMINI API KEY HERE"```
 * Just put your question inside ```agent.invoke("")``` and run the program
 &nbsp;
