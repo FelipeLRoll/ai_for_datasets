@@ -7,6 +7,7 @@
 <b>This project is a simple AI (Gemini) assistent for getting info about .csv files</b>
 
 # How to use
+* Ensure that the required libraries are listed in a requirements.txt file. Install these libraries by running ```pip install -r requirements.txt```
 * Create a .env file inside the project and write ```GOOGLE_API_KEY = "PUT YOUR GEMINI API KEY HERE"```
 * Just put your question inside ```agent.invoke("")``` and run the program
 &nbsp;
