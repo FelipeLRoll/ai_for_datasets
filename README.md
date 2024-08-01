@@ -7,7 +7,8 @@
 <b>This project is a simple AI (Gemini) assistent for getting info about .csv files</b>
 
 # How to use
-* Just put your question inside "agent.invoke("")" and run the program
+* Create a .env file inside the project and write ```GOOGLE_API_KEY = "PUT YOUR GEMINI API KEY HERE"```
+* Just put your question inside ```agent.invoke("")``` and run the program
 &nbsp;
 # Developed by: 
   * [Felipe Roll - LinkedIn](https://www.linkedin.com/in/felipe-roll)
